@@ -1,12 +1,3 @@
-### Java Wistia API v1.
-To use this api you’ll first need to obtain an API key from Wistia:
-
-https://wistia.com/support/developers/data-api
-
-The generated token is all you need to use the Java Wistia API.
-
-```java
-
 package com.opsmatters.wistia;
 
 import java.io.File;
@@ -40,20 +31,3 @@ public class WistiaTest
         System.out.println(item.optString("name"));
     }
 }
-
-
-```
-
-The class WistiaResponse provides a response code and JSON response, see the Wistia API documentation in case of errors.
-
-### Use with Maven
-
-```xml
-
-<dependency>
-  <groupId>com.opsmatters</groupId>
-  <artifactId>wistia-api</artifactId>
-  <version>1.0.0</version>
-</dependency>
-
-```
