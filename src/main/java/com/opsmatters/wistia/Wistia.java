@@ -52,7 +52,7 @@ import org.json.JSONArray;
 public class Wistia
 {
     private static final String WISTIA_SERVER = "https://api.wistia.com";
-	private static final String API_VERSION = "/v1";
+    private static final String API_VERSION = "/v1";
     private String token;
     private URL proxy;
 
